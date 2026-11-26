@@ -9,4 +9,6 @@ class Settings(BaseSettings):
     database_url: str
     app_name: str = "Agenda de eventos de Jerez"
 
+    cors_origins: str = "http://localhost:5173"
+
 settings = Settings()
